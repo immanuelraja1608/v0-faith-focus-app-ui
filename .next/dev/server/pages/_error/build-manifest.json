@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_error": [
+      "static/chunks/3130a_next_dist_compiled_b463f4aa._.js",
+      "static/chunks/3130a_next_dist_shared_lib_7a51bd7f._.js",
+      "static/chunks/3130a_next_dist_client_e3c7be4e._.js",
+      "static/chunks/3130a_next_dist_1b05ef23._.js",
+      "static/chunks/3130a_next_error_72cada43.js",
+      "static/chunks/[next]_entry_page-loader_ts_7b0f2a10._.js",
+      "static/chunks/3130a_react-dom_431a14a2._.js",
+      "static/chunks/3130a_ca85b844._.js",
+      "static/chunks/[root-of-the-server]__0d568346._.js",
+      "static/chunks/v0-faith-focus-app-ui_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-v0-faith-focus-app-ui_pages__error_48d8e98b._.js"
+    ]
+  },
+  "ampFirstPages": []
+}
