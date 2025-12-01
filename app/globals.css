@@ -75,8 +75,9 @@
   --sidebar-ring: oklch(0.627 0.215 275.754);
 }
 
+/* Updated font-sans to use Geist */
 @theme inline {
-  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
+  --font-sans: "Geist", "Geist Fallback", system-ui, sans-serif;
   --font-serif: "Merriweather", "Georgia", serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback";
   --color-background: var(--background);
@@ -133,4 +134,15 @@
     line-height: 2;
     letter-spacing: 0.01em;
   }
+}
+
+/* Simplified animations to prevent jittering - removed blur-heavy animations */
+/* Premium card hover effect */
+.premium-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -8px rgba(106, 93, 246, 0.12);
 }

@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import type { PageType } from "@/app/page"
 import { cn } from "@/lib/utils"
 import { Home, BookOpen, TrendingUp, Award, Settings, LogOut, Sparkles } from "lucide-react"
@@ -9,6 +8,7 @@ import { Home, BookOpen, TrendingUp, Award, Settings, LogOut, Sparkles } from "l
 interface SidebarProps {
   currentPage: PageType
   onNavigate: (page: PageType) => void
+  onLogout: () => void
 }
 
 const navItems: { id: PageType; label: string; icon: React.ElementType }[] = [
@@ -19,13 +19,13 @@ const navItems: { id: PageType; label: string; icon: React.ElementType }[] = [
   { id: "settings", label: "Settings", icon: Settings },
 ]
 
-export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
+export function Sidebar({ currentPage, onNavigate, onLogout }: SidebarProps) {
   return (
-    <aside className="w-64 bg-sidebar border-r border-sidebar-border flex flex-col">
+    <aside className="w-64 bg-gradient-to-b from-sidebar to-sidebar/95 border-r border-sidebar-border flex flex-col">
       {/* Logo */}
       <div className="p-6 border-b border-sidebar-border">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
+          <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg shadow-primary/20">
             <Sparkles className="w-5 h-5 text-primary-foreground" />
           </div>
           <div>
@@ -48,11 +48,11 @@ export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
                   className={cn(
                     "w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200",
                     isActive
-                      ? "bg-sidebar-accent text-sidebar-accent-foreground shadow-sm"
+                      ? "bg-gradient-to-r from-primary/10 to-accent/20 text-primary shadow-sm border border-primary/10"
                       : "text-muted-foreground hover:bg-secondary hover:text-foreground",
                   )}
                 >
-                  <Icon className="w-5 h-5" />
+                  <Icon className={cn("w-5 h-5", isActive && "text-primary")} />
                   {item.label}
                 </button>
               </li>
@@ -63,7 +63,10 @@ export function Sidebar({ currentPage, onNavigate }: SidebarProps) {
 
       {/* Logout */}
       <div className="p-4 border-t border-sidebar-border">
-        <button className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground transition-all duration-200">
+        <button
+          onClick={onLogout}
+          className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-muted-foreground hover:bg-destructive/10 hover:text-destructive transition-all duration-200"
+        >
           <LogOut className="w-5 h-5" />
           Sign Out
         </button>
