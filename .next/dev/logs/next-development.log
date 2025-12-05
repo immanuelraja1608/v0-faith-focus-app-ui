@@ -1,0 +1,507 @@
+[00:00:03.677] Server  LOG     
+[00:00:03.678] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:03.678] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:03.678] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:03.679] Server  LOG     
+[00:00:03.679] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:03.679] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:03.679] Server  LOG     
+[00:00:03.870] Server  LOG      ✓ Ready in 3.5s
+[00:00:22.577] Server  LOG      ○ Compiling / ...
+[00:00:25.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.859] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:25.859] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:25.859] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764768650916}
+[00:58:15.679] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:58:15.681] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:17:46.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:17:46.535] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/v0-faith-...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_dd5f...">
+                          <body
+                            className="font-sans antialiased"
+-                           data-demoway-document-id="y4tlyax2b8x4y8tbmmra071q"
+                          >
+                  ...
+
+[05:17:47.037] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:17:47.037] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:17:47.037] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764787693037}
+[05:25:28.503] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:25:28.507] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:26:08.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:26:09.003] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/v0-faith-...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_dd5f...">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[05:26:09.401] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[05:26:09.401] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[05:26:09.401] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764788195399}
+[05:26:19.975] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:26:19.975] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[05:47:38.484] Server  LOG        Reload env: .env.local
+[13:16:18.152] Server  LOG      ✓ Compiled in 1579ms
+[13:16:25.067] Server  LOG      ✓ Compiled in 138ms
+[13:16:39.617] Server  LOG      ✓ Compiled in 722ms
+[13:16:45.071] Server  LOG      ✓ Compiled in 66ms
+[13:16:50.279] Server  LOG      ✓ Compiled in 68ms
+[13:16:56.281] Server  LOG      ✓ Compiled in 120ms
+[13:17:02.164] Server  LOG      ✓ Compiled in 63ms
+[13:41:03.011] Server  LOG      ✓ Compiled in 231ms
+[13:41:44.595] Server  LOG      ✓ Compiled in 105ms
+[13:41:54.438] Server  LOG      ✓ Compiled in 99ms
+[13:42:07.884] Server  LOG      ✓ Compiled in 73ms
+[13:42:16.679] Server  LOG      ✓ Compiled in 231ms
+[13:42:42.984] Server  LOG      ✓ Compiled in 46ms
+[13:51:59.199] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:52:01.062] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:52:02.389] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:52:02.389] Browser LOG     Fetching from API: bible-472735b48a27b402-01-MAT-NaN
+[13:52:03.898] Browser ERROR   Error fetching Bible chapter: {}
+[13:52:03.898] Browser ERROR   {}
+[13:54:43.851] Server  LOG      ✓ Compiled in 465ms
+[13:54:44.849] Browser ERROR   ./v0-faith-focus-app-ui/lib/bibleCacheClient.ts:86:5
+Parsing ecmascript source code failed
+  84 |     setCache(key, result);
+  85 |     return result;
+> 86 |   } catch (error) {
+     |     ^^^^^
+  87 |     console.error("Error fetching Bible chapter:", error); throw error;
+  88 |   }
+  89 | }
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./v0-faith-focus-app-ui/lib/bibleCacheClient.ts [Client Component Browser]
+    ./v0-faith-focus-app-ui/components/bible-reader.tsx [Client Component Browser]
+    ./v0-faith-focus-app-ui/app/page.tsx [Client Component Browser]
+    ./v0-faith-focus-app-ui/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./v0-faith-focus-app-ui/lib/bibleCacheClient.ts [Client Component SSR]
+    ./v0-faith-focus-app-ui/components/bible-reader.tsx [Client Component SSR]
+    ./v0-faith-focus-app-ui/app/page.tsx [Client Component SSR]
+    ./v0-faith-focus-app-ui/app/page.tsx [Server Component]
+[13:54:51.829] Server  LOG      ✓ Compiled in 86ms
+[13:54:56.857] Server  LOG      ✓ Compiled in 176ms
+[13:55:00.901] Server  LOG      ✓ Compiled in 154ms
+[13:55:06.444] Server  LOG      ✓ Compiled in 64ms
+[13:57:07.277] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:57:08.397] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:57:09.805] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[13:57:09.805] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[13:57:11.146] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[13:57:11.146] Browser ERROR   Error fetching Bible chapter: {}
+[13:57:11.146] Browser ERROR   {}
+[13:57:49.426] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN-NaN
+[13:57:50.894] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[13:57:50.895] Browser ERROR   Error fetching Bible chapter: {}
+[13:57:50.895] Browser ERROR   {}
+[13:57:59.739] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN-NaN
+[13:58:00.664] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[13:58:00.664] Browser ERROR   Error fetching Bible chapter: {}
+[13:58:00.664] Browser ERROR   {}
+[14:00:05.076] Server  LOG      ✓ Compiled in 639ms
+[14:00:36.595] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:00:38.267] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:00:39.912] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:00:39.912] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:00:41.071] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:00:41.071] Browser ERROR   Error fetching Bible chapter: {}
+[14:00:41.071] Browser ERROR   {}
+[14:00:46.493] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:00:47.892] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:00:47.892] Browser ERROR   Error fetching Bible chapter: {}
+[14:00:47.892] Browser ERROR   {}
+[14:13:28.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[14:13:28.601] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/v0-faith-...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_dd5f...">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[14:13:28.890] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[14:13:28.890] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[14:13:28.890] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764819835052}
+[14:13:44.897] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:13:44.897] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:13:49.059] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:13:50.798] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:13:52.512] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:13:52.512] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:13:53.419] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:13:53.419] Browser ERROR   Error fetching Bible chapter: {}
+[14:13:53.419] Browser ERROR   {}
+[14:14:22.423] Server  LOG      ✓ Compiled in 195ms
+[14:16:04.644] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.3","translation":"bba9f40183526463-01"}
+[14:16:04.644] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:16:05.740] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:16:05.740] Browser ERROR   Error fetching Bible chapter: {}
+[14:16:05.740] Browser ERROR   {}
+[14:17:49.579] Server  LOG      ✓ Compiled in 270ms
+[14:18:17.076] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[14:18:17.762] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/v0-faith-...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="geist_dd5f...">
+                          <body
+                            className="font-sans antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[14:18:18.123] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[14:18:18.123] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[14:18:18.123] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764820124266}
+[14:18:30.252] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:18:30.252] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:18:32.915] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:18:34.744] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:18:36.044] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:18:36.044] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"intro","translation":"bba9f40183526463-01"}
+[14:18:36.044] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:18:37.035] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:18:37.035] Browser ERROR   Error fetching Bible chapter: {}
+[14:18:37.035] Browser ERROR   {}
+[14:18:40.900] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.3","translation":"bba9f40183526463-01"}
+[14:18:40.900] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-3
+[14:18:52.157] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.3","translation":"03a021185023710b-01"}
+[14:18:52.157] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN-3
+[14:18:53.516] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"intro","translation":"03a021185023710b-01"}
+[14:18:53.516] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN-NaN
+[14:18:54.452] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:18:54.452] Browser ERROR   Error fetching Bible chapter: {}
+[14:18:54.452] Browser ERROR   {}
+[14:19:16.008] Browser LOG     Fetching chapter content for: {"book":"MAT","chapter":"intro","translation":"03a021185023710b-01"}
+[14:19:16.008] Browser LOG     Fetching from API: bible-03a021185023710b-01-MAT-NaN
+[14:19:17.130] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:19:17.130] Browser ERROR   Error fetching Bible chapter: {}
+[14:19:17.130] Browser ERROR   {}
+[14:19:22.756] Browser LOG     Fetching chapter content for: {"book":"MAT","chapter":"MAT.4","translation":"03a021185023710b-01"}
+[14:19:22.756] Browser LOG     Fetching from API: bible-03a021185023710b-01-MAT-4
+[14:19:33.879] Browser LOG     Fetching chapter content for: {"book":"MAT","chapter":"MAT.1","translation":"03a021185023710b-01"}
+[14:19:33.879] Browser LOG     Fetching from API: bible-03a021185023710b-01-MAT-1
+[14:21:52.448] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[14:21:53.054] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[14:21:53.054] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[14:21:53.054] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764820339197}
+[14:27:05.656] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:27:05.656] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[14:27:09.546] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:27:11.258] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:27:13.313] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[14:27:13.313] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"intro","translation":"bba9f40183526463-01"}
+[14:27:13.313] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-NaN
+[14:27:13.751] Browser ERROR   API call failed with status: 400, body: {"statusCode":400,"error":"Bad Request","message":"Invalid request params input"}
+[14:27:13.751] Browser ERROR   Error fetching Bible chapter: {}
+[14:27:13.751] Browser ERROR   {}
+[14:27:22.324] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.1","translation":"bba9f40183526463-01"}
+[14:27:22.324] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN-1
+[14:28:21.690] Server  LOG      ✓ Compiled in 153ms
+[14:28:29.809] Server  LOG      ✓ Compiled in 73ms
+[14:28:35.790] Server  LOG      ✓ Compiled in 75ms
+[14:28:41.513] Server  LOG      ✓ Compiled in 124ms
+[21:24:18.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[21:24:20.087] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[21:24:20.087] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[21:24:20.087] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764845686567}
+[26:54:50.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:54:50.490] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[26:54:50.490] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[26:54:50.490] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764865517823}
+[26:55:03.845] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[26:55:03.845] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[26:55:07.581] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:55:09.075] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:55:10.231] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:55:10.231] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[26:55:10.231] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN.intro
+[26:55:15.094] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.1","translation":"bba9f40183526463-01"}
+[26:55:15.094] Browser LOG     Fetching from API: bible-bba9f40183526463-01-GEN.1
+[26:58:47.341] Server  LOG      ✓ Compiled in 796ms
+[26:58:49.080] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:50.130] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:52.081] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:52.081] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[26:58:52.081] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[26:58:52.707] Server  LOG      ✓ Compiled in 336ms
+[26:58:57.081] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:57.081] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:57.081] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[26:58:57.081] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[26:58:57.081] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[26:59:01.045] Server  LOG      ✓ Compiled in 117ms
+[26:59:10.926] Server  LOG      ✓ Compiled in 421ms
+[26:59:16.341] Server  LOG      ✓ Compiled in 211ms
+[26:59:48.192] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:59:48.521] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[26:59:48.521] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[26:59:48.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764865815857}
+[26:59:59.217] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[26:59:59.217] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:00:01.859] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:00:03.335] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:00:05.059] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:00:05.059] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[27:00:05.059] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[27:00:15.719] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"03a021185023710b-01"}
+[27:00:15.719] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN.intro
+[27:00:24.380] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.1","translation":"03a021185023710b-01"}
+[27:00:24.380] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN.1
+[27:02:39.622] Server  LOG      ✓ Compiled in 91ms
+[27:03:32.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:03:32.657] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[27:03:32.658] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[27:03:32.658] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866040000}
+[27:03:36.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:03:37.362] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[27:03:37.363] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[27:03:37.363] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866044705}
+[27:03:49.676] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:03:49.676] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:03:53.552] Browser LOG     All Bible versions and their languages: [{"id":"472735b48a27b402-01","language":"Ahirani","name":"Ahirani Bible"},{"id":"472735b48a27b402-02","language":"Ahirani","name":"The Old Testament in Ahirani language"},{"id":"0c2ff0a5c8b9069c-01","language":"Nend","name":"Nend Portions - Mark"},{"id":"b7ad344da9c39262-01","language":"Arapaho","name":"Arapaho Luke"},{"id":"d199679f805f5b29-01","language":"Assamese","name":"Indian Revised Version (IRV) Assamese - 2019"},{"id":"7b1975ae4d11d931-01","language":"Bodo Parja","name":"Bodo Parja Bible"},{"id":"17c44f6c89de00db-01","language":"Belarusan","name":"Belarusian New Testament and Books of Old Testament"},{"id":"17c44f6c89de00db-02","language":"Belarusan","name":"Bible (A.Bokun translation)"},{"id":"b52bc8b7af3bdc6f-03","language":"Belarusian","name":"Bible (V. Semukha translation)"},{"id":"4c3eda00cd317568-01","language":"Bengali","name":"Indian Revised Version (IRV) Bengali"},{"id":"55bab459b716348c-01","language":"Beami","name":"Bedamuni Bible"},{"id":"e051b4f945d52400-02","language":"Pahari, Mahasu","name":"Baghlayani"},{"id":"2ef130d3485d3fe4-01","language":"Haryanvi","name":"Haryanvi"},{"id":"5a19af0cfc57ff3a-01","language":"Bugun","name":"Bugun New Testament"},{"id":"c2d042a913068a25-01","language":"Bhadrawahi","name":"Bhadrawahi New Testament"},{"id":"63d47dec7790e1cf-01","language":"Bhattiyali","name":"Bhattiyali NT"},{"id":"34d2d843a792981b-01","language":"Bhunjia","name":"Bhumiya Bible"},{"id":"6855dabfcb711cc2-01","language":"Siksika","name":"Blackfoot Matthew"},{"id":"8b4c1b146ad6508a-01","language":"Bareli, Palya","name":"Paliya Bible"},{"id":"71d2075d284c4eae-01","language":"Baga Sitemu","name":"God's Holy Book"},{"id":"44e37abe1fa39aab-01","language":"Borna","name":"The New Testament in Borna/Shinasha Language"},{"id":"c61908161b077c4c-01","language":"Czech","name":"Czech Kralická Bible 1613"},{"id":"04fb2bec0d582d1f-01","language":"Chinese, Mandarin","name":"免费的易读圣经 Free Easy-to-read Bible"},{"id":"dca01eb41e39d25d-02","language":"Kwere","name":"Kwere Bible"},{"id":"33e024fcc7010565-01","language":"Kwere","name":"The New Testament in Kwere"},{"id":"dca01eb41e39d25d-01","language":"Kwere","name":"The New Testament in Kwere"},{"id":"b84c4908b73961ba-01","language":"Chin, Daai","name":"New Testament in Dai"},{"id":"f492a38d0e52db0f-01","language":"German, Standard","name":"Elberfelder Translation (Version of bibelkommentare.de)"},{"id":"926aa5efbc5e04e2-01","language":"German, Standard","name":"German Luther Bible 1912 with Strong's numbers"},{"id":"95410db44ef800c1-01","language":"German, Standard","name":"German Unrevised Elberfelder Bible"},{"id":"542b32484b6e38c2-01","language":"German","name":"The Holy Bible in German, translation by Kautzsch und Weizsäcker 1906"},{"id":"f35902ba1a82ba42-01","language":"Danu","name":"The New Testament in Danu Language"},{"id":"ef899709a85822c3-01","language":"Desiya","name":"Desiya Bible"},{"id":"e578524a0893c6b7-01","language":"Dawro","name":"Dawro New Testament"},{"id":"e1c5cd49c0757432-01","language":"Estonian, Standard","name":"Piibel Kõigile"},{"id":"d17f683e8977c58c-01","language":"Apali","name":"Genesis, Exodus, and the New Testament in the Apal Language of Papua New Guinea"},{"id":"bba9f40183526463-01","language":"English","name":"Berean Standard Bible"},{"id":"6bab4d6c61b31b80-01","language":"English","name":"Brenton English Septuagint (Updated Spelling and Formatting)"},{"id":"65bfdebd704a8324-01","language":"English","name":"Brenton English translation of the Septuagint"},{"id":"55212e3cf5d04d49-01","language":"English","name":"Cambridge Paragraph Bible of the KJV"},{"id":"555fef9a6cb31151-01","language":"English","name":"Contemporary English Version"},{"id":"555fef9a6cb31151-02","language":"English","name":"Contemporary English Version Interconfessional Edition"},{"id":"555fef9a6cb31151-03","language":"English","name":"Contemporary English Version Old tradition"},{"id":"179568874c45066f-01","language":"English","name":"Douay-Rheims American 1899"},{"id":"65eec8e0b60e656b-01","language":"English","name":"Free Bible Version"},{"id":"c315fa9f71d4af3a-01","language":"English","name":"Geneva Bible"},{"id":"bf8f1c7f3f9045a5-01","language":"English","name":"JPS TaNaKH 1917"},{"id":"de4e12af7f28f599-02","language":"English","name":"King James (Authorised) Version"},{"id":"de4e12af7f28f599-01","language":"English","name":"King James (Authorised) Version"},{"id":"01b29f4b342acc35-01","language":"English","name":"Literal Standard Version"},{"id":"40072c4a5aba4022-01","language":"English","name":"Revised Version 1885"},{"id":"ec290b5045ff54a5-01","language":"English","name":"Targum Onkelos Etheridge"},{"id":"2f0fd81d7b85b923-01","language":"English","name":"The English New Testament According to Family 35"},{"id":"06125adad2d5898a-01","language":"English","name":"The Holy Bible, American Standard Version"},{"id":"c89622d31b60c444-02","language":"English","name":"The Orthodox Jewish Bible"},{"id":"32339cf2f720ff8e-01","language":"English","name":"The Text-Critical English New Testament"},{"id":"66c22495370cdfc0-01","language":"English","name":"Translation for Translators"},{"id":"9879dbb7cfe39e4d-01","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-02","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-03","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-04","language":"English","name":"World English Bible"},{"id":"7142879509583d59-01","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-02","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-03","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-04","language":"English","name":"World English Bible British Edition"},{"id":"72f4e6dc683324df-01","language":"English","name":"World English Bible Updated"},{"id":"72f4e6dc683324df-02","language":"English","name":"World English Bible Updated"},{"id":"72f4e6dc683324df-03","language":"English","name":"World English Bible Updated"},{"id":"32664dc3288a28df-01","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"32664dc3288a28df-02","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"32664dc3288a28df-03","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"f72b840c855f362c-04","language":"English","name":"World Messianic Bible"},{"id":"04da588535d2f823-04","language":"English","name":"World Messianic Bible British Edition"},{"id":"9b076bc0f1856204-01","language":"Pular","name":"Pular Fuuta-Jallon Version"},{"id":"da905e46720432e2-01","language":"Borei","name":"New Testament in Mborena Kam"},{"id":"2193678febf23d26-01","language":"Gata’","name":"Gata Didayi Bible"},{"id":"e8b818f49c7c2835-01","language":"Kire","name":"The New Testament in Kire"},{"id":"9915a49ed60cc12f-01","language":"Gamo","name":"Gamo Geesha Maxxafa New Testamen"},{"id":"ba74d885b27806bb-01","language":"Gofa","name":"Gofa New Testament"},{"id":"28d256cb603137cd-01","language":"Gowli","name":"Gawli Bible"},{"id":"901dcd9744e1bf69-01","language":"Greek, Ancient","name":"1904 Patriarchal Greek New Testament with 20 corrections from later editions"},{"id":"c114c33098c4fef1-01","language":"Greek, Ancient","name":"Brenton Greek Septuagint"},{"id":"3aefb10641485092-01","language":"Greek, Ancient","name":"Greek Textus Receptus"},{"id":"47f396bad37936f0-01","language":"Greek, Ancient","name":"Solid Rock Greek New Testament"},{"id":"7644de2e4c5188e5-01","language":"Greek, Ancient","name":"Text-Critical Greek New Testament"},{"id":"5e29945cf530b0f6-01","language":"Greek, Ancient","name":"The Greek New Testament According to Family 35"},{"id":"a3644a98420c2703-01","language":"Gujarati","name":"Indian Revised Version (IRV) Gujarati-2019"},{"id":"496cafdffc23197b-01","language":"Haitian","name":"Haitian Bible"},{"id":"0b262f1ed7f084a6-01","language":"Hebrew, Ancient","name":"The Hebrew Bible, Westminister Leningrad Codex"},{"id":"2c500771ea16da93-01","language":"Hebrew","name":"Westminster Leningrad Codex"},{"id":"1e8ab327edbce67f-01","language":"Hindi","name":"Indian Revised Version(IRV) Hindi - 2019"},{"id":"9dec3e0ffbd4386b-01","language":"Holiya","name":"Holiya Bible"},{"id":"9dec3e0ffbd4386b-02","language":"Holiya","name":"The Old Testament Books in Holiya Language"},{"id":"2dd568eeff29fb3c-02","language":"Indonesian","name":"Plain Indonesian Translation"},{"id":"2dd568eeff29fb3c-01","language":"Indonesian","name":"Terjemahan Sederhana Indonesia NT Second Edition"},{"id":"41f25b97f468e10b-01","language":"Italian","name":"Diodati Bible 1885"},{"id":"0aaff251e76ae6ba-01","language":"Juray","name":"The New Testament in Juray Soura Language"},{"id":"a33a100f04f2752e-01","language":"Kannada","name":"Indian Revised Version (IRV) Kannada - 2019"},{"id":"3a5dafd48a13c6d9-01","language":"Kamano","name":"Kamano-Kafe Bible [kbq]"},{"id":"913473cd3c600aa8-02","language":"Khanty","name":"Khanty Bible Translation"},"... 123 items not stringified"]
+[27:03:53.552] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:03:54.301] Browser LOG     All Bible versions and their languages: [{"id":"472735b48a27b402-01","language":"Ahirani","name":"Ahirani Bible"},{"id":"472735b48a27b402-02","language":"Ahirani","name":"The Old Testament in Ahirani language"},{"id":"0c2ff0a5c8b9069c-01","language":"Nend","name":"Nend Portions - Mark"},{"id":"b7ad344da9c39262-01","language":"Arapaho","name":"Arapaho Luke"},{"id":"d199679f805f5b29-01","language":"Assamese","name":"Indian Revised Version (IRV) Assamese - 2019"},{"id":"7b1975ae4d11d931-01","language":"Bodo Parja","name":"Bodo Parja Bible"},{"id":"17c44f6c89de00db-01","language":"Belarusan","name":"Belarusian New Testament and Books of Old Testament"},{"id":"17c44f6c89de00db-02","language":"Belarusan","name":"Bible (A.Bokun translation)"},{"id":"b52bc8b7af3bdc6f-03","language":"Belarusian","name":"Bible (V. Semukha translation)"},{"id":"4c3eda00cd317568-01","language":"Bengali","name":"Indian Revised Version (IRV) Bengali"},{"id":"55bab459b716348c-01","language":"Beami","name":"Bedamuni Bible"},{"id":"e051b4f945d52400-02","language":"Pahari, Mahasu","name":"Baghlayani"},{"id":"2ef130d3485d3fe4-01","language":"Haryanvi","name":"Haryanvi"},{"id":"5a19af0cfc57ff3a-01","language":"Bugun","name":"Bugun New Testament"},{"id":"c2d042a913068a25-01","language":"Bhadrawahi","name":"Bhadrawahi New Testament"},{"id":"63d47dec7790e1cf-01","language":"Bhattiyali","name":"Bhattiyali NT"},{"id":"34d2d843a792981b-01","language":"Bhunjia","name":"Bhumiya Bible"},{"id":"6855dabfcb711cc2-01","language":"Siksika","name":"Blackfoot Matthew"},{"id":"8b4c1b146ad6508a-01","language":"Bareli, Palya","name":"Paliya Bible"},{"id":"71d2075d284c4eae-01","language":"Baga Sitemu","name":"God's Holy Book"},{"id":"44e37abe1fa39aab-01","language":"Borna","name":"The New Testament in Borna/Shinasha Language"},{"id":"c61908161b077c4c-01","language":"Czech","name":"Czech Kralická Bible 1613"},{"id":"04fb2bec0d582d1f-01","language":"Chinese, Mandarin","name":"免费的易读圣经 Free Easy-to-read Bible"},{"id":"dca01eb41e39d25d-02","language":"Kwere","name":"Kwere Bible"},{"id":"33e024fcc7010565-01","language":"Kwere","name":"The New Testament in Kwere"},{"id":"dca01eb41e39d25d-01","language":"Kwere","name":"The New Testament in Kwere"},{"id":"b84c4908b73961ba-01","language":"Chin, Daai","name":"New Testament in Dai"},{"id":"f492a38d0e52db0f-01","language":"German, Standard","name":"Elberfelder Translation (Version of bibelkommentare.de)"},{"id":"926aa5efbc5e04e2-01","language":"German, Standard","name":"German Luther Bible 1912 with Strong's numbers"},{"id":"95410db44ef800c1-01","language":"German, Standard","name":"German Unrevised Elberfelder Bible"},{"id":"542b32484b6e38c2-01","language":"German","name":"The Holy Bible in German, translation by Kautzsch und Weizsäcker 1906"},{"id":"f35902ba1a82ba42-01","language":"Danu","name":"The New Testament in Danu Language"},{"id":"ef899709a85822c3-01","language":"Desiya","name":"Desiya Bible"},{"id":"e578524a0893c6b7-01","language":"Dawro","name":"Dawro New Testament"},{"id":"e1c5cd49c0757432-01","language":"Estonian, Standard","name":"Piibel Kõigile"},{"id":"d17f683e8977c58c-01","language":"Apali","name":"Genesis, Exodus, and the New Testament in the Apal Language of Papua New Guinea"},{"id":"bba9f40183526463-01","language":"English","name":"Berean Standard Bible"},{"id":"6bab4d6c61b31b80-01","language":"English","name":"Brenton English Septuagint (Updated Spelling and Formatting)"},{"id":"65bfdebd704a8324-01","language":"English","name":"Brenton English translation of the Septuagint"},{"id":"55212e3cf5d04d49-01","language":"English","name":"Cambridge Paragraph Bible of the KJV"},{"id":"555fef9a6cb31151-01","language":"English","name":"Contemporary English Version"},{"id":"555fef9a6cb31151-02","language":"English","name":"Contemporary English Version Interconfessional Edition"},{"id":"555fef9a6cb31151-03","language":"English","name":"Contemporary English Version Old tradition"},{"id":"179568874c45066f-01","language":"English","name":"Douay-Rheims American 1899"},{"id":"65eec8e0b60e656b-01","language":"English","name":"Free Bible Version"},{"id":"c315fa9f71d4af3a-01","language":"English","name":"Geneva Bible"},{"id":"bf8f1c7f3f9045a5-01","language":"English","name":"JPS TaNaKH 1917"},{"id":"de4e12af7f28f599-02","language":"English","name":"King James (Authorised) Version"},{"id":"de4e12af7f28f599-01","language":"English","name":"King James (Authorised) Version"},{"id":"01b29f4b342acc35-01","language":"English","name":"Literal Standard Version"},{"id":"40072c4a5aba4022-01","language":"English","name":"Revised Version 1885"},{"id":"ec290b5045ff54a5-01","language":"English","name":"Targum Onkelos Etheridge"},{"id":"2f0fd81d7b85b923-01","language":"English","name":"The English New Testament According to Family 35"},{"id":"06125adad2d5898a-01","language":"English","name":"The Holy Bible, American Standard Version"},{"id":"c89622d31b60c444-02","language":"English","name":"The Orthodox Jewish Bible"},{"id":"32339cf2f720ff8e-01","language":"English","name":"The Text-Critical English New Testament"},{"id":"66c22495370cdfc0-01","language":"English","name":"Translation for Translators"},{"id":"9879dbb7cfe39e4d-01","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-02","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-03","language":"English","name":"World English Bible"},{"id":"9879dbb7cfe39e4d-04","language":"English","name":"World English Bible"},{"id":"7142879509583d59-01","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-02","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-03","language":"English","name":"World English Bible British Edition"},{"id":"7142879509583d59-04","language":"English","name":"World English Bible British Edition"},{"id":"72f4e6dc683324df-01","language":"English","name":"World English Bible Updated"},{"id":"72f4e6dc683324df-02","language":"English","name":"World English Bible Updated"},{"id":"72f4e6dc683324df-03","language":"English","name":"World English Bible Updated"},{"id":"32664dc3288a28df-01","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"32664dc3288a28df-02","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"32664dc3288a28df-03","language":"English","name":"World English Bible, American English Edition, without Strong's Numbers"},{"id":"f72b840c855f362c-04","language":"English","name":"World Messianic Bible"},{"id":"04da588535d2f823-04","language":"English","name":"World Messianic Bible British Edition"},{"id":"9b076bc0f1856204-01","language":"Pular","name":"Pular Fuuta-Jallon Version"},{"id":"da905e46720432e2-01","language":"Borei","name":"New Testament in Mborena Kam"},{"id":"2193678febf23d26-01","language":"Gata’","name":"Gata Didayi Bible"},{"id":"e8b818f49c7c2835-01","language":"Kire","name":"The New Testament in Kire"},{"id":"9915a49ed60cc12f-01","language":"Gamo","name":"Gamo Geesha Maxxafa New Testamen"},{"id":"ba74d885b27806bb-01","language":"Gofa","name":"Gofa New Testament"},{"id":"28d256cb603137cd-01","language":"Gowli","name":"Gawli Bible"},{"id":"901dcd9744e1bf69-01","language":"Greek, Ancient","name":"1904 Patriarchal Greek New Testament with 20 corrections from later editions"},{"id":"c114c33098c4fef1-01","language":"Greek, Ancient","name":"Brenton Greek Septuagint"},{"id":"3aefb10641485092-01","language":"Greek, Ancient","name":"Greek Textus Receptus"},{"id":"47f396bad37936f0-01","language":"Greek, Ancient","name":"Solid Rock Greek New Testament"},{"id":"7644de2e4c5188e5-01","language":"Greek, Ancient","name":"Text-Critical Greek New Testament"},{"id":"5e29945cf530b0f6-01","language":"Greek, Ancient","name":"The Greek New Testament According to Family 35"},{"id":"a3644a98420c2703-01","language":"Gujarati","name":"Indian Revised Version (IRV) Gujarati-2019"},{"id":"496cafdffc23197b-01","language":"Haitian","name":"Haitian Bible"},{"id":"0b262f1ed7f084a6-01","language":"Hebrew, Ancient","name":"The Hebrew Bible, Westminister Leningrad Codex"},{"id":"2c500771ea16da93-01","language":"Hebrew","name":"Westminster Leningrad Codex"},{"id":"1e8ab327edbce67f-01","language":"Hindi","name":"Indian Revised Version(IRV) Hindi - 2019"},{"id":"9dec3e0ffbd4386b-01","language":"Holiya","name":"Holiya Bible"},{"id":"9dec3e0ffbd4386b-02","language":"Holiya","name":"The Old Testament Books in Holiya Language"},{"id":"2dd568eeff29fb3c-02","language":"Indonesian","name":"Plain Indonesian Translation"},{"id":"2dd568eeff29fb3c-01","language":"Indonesian","name":"Terjemahan Sederhana Indonesia NT Second Edition"},{"id":"41f25b97f468e10b-01","language":"Italian","name":"Diodati Bible 1885"},{"id":"0aaff251e76ae6ba-01","language":"Juray","name":"The New Testament in Juray Soura Language"},{"id":"a33a100f04f2752e-01","language":"Kannada","name":"Indian Revised Version (IRV) Kannada - 2019"},{"id":"3a5dafd48a13c6d9-01","language":"Kamano","name":"Kamano-Kafe Bible [kbq]"},{"id":"913473cd3c600aa8-02","language":"Khanty","name":"Khanty Bible Translation"},"... 123 items not stringified"]
+[27:03:55.756] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:03:57.696] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:03:57.696] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[27:03:57.696] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[27:07:01.068] Server  LOG      ✓ Compiled in 491ms
+[27:07:06.154] Server  LOG      ✓ Compiled in 191ms
+[27:07:48.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:07:48.753] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[27:07:48.753] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[27:07:48.753] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866296102}
+[27:07:58.777] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:07:58.777] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:08:01.964] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:08:03.366] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:08:04.951] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:08:04.951] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[27:08:04.951] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[27:08:09.026] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"de4e12af7f28f599-02"}
+[27:08:09.026] Browser LOG     Fetching from API: bible-de4e12af7f28f599-02-GEN.intro
+[27:08:15.777] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[27:08:15.777] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[27:10:43.402] Server  LOG      ✓ Compiled in 83ms
+[27:13:40.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:13:41.268] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[27:13:41.268] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[27:13:41.268] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764866648613}
+[27:13:53.498] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:13:53.498] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[27:13:55.580] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:13:57.159] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:13:59.035] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[27:13:59.035] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[27:13:59.035] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[27:14:00.511] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"03a021185023710b-01"}
+[27:14:00.511] Browser LOG     Loading from cache: bible-03a021185023710b-01-GEN.intro
+[27:14:31.700] Browser LOG     Fetching chapter content for: {"book":"GEN","chapter":"GEN.4","translation":"03a021185023710b-01"}
+[27:14:31.700] Browser LOG     Fetching from API: bible-03a021185023710b-01-GEN.4
+[27:17:08.379] Server  LOG      ✓ Compiled in 84ms
+[27:17:26.723] Server  LOG      ✓ Compiled in 78ms
+[28:26:52.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[28:26:52.667] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[28:26:52.667] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[28:26:52.667] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764871039968}
+[28:27:03.061] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[28:27:03.061] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[28:27:06.694] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:27:09.439] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:27:12.374] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:27:12.374] Browser LOG     Debug: isTamilBibleSelected false
+[28:27:12.374] Browser LOG     Debug: currentBookName genesis
+[28:27:12.374] Browser LOG     Debug: chapter GEN.intro
+[28:27:12.374] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[28:27:12.374] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[28:27:16.755] Browser LOG     Debug: isTamilBibleSelected false
+[28:27:16.755] Browser LOG     Debug: currentBookName genesis
+[28:27:16.756] Browser LOG     Debug: chapter GEN.intro
+[28:27:16.756] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"03a021185023710b-01"}
+[28:27:16.756] Browser LOG     Loading from cache: bible-03a021185023710b-01-GEN.intro
+[28:28:02.575] Server  LOG      ✓ Compiled in 240ms
+[28:29:01.098] Browser LOG     Debug: selectedVersion?.name The Orthodox Jewish Bible
+[28:29:01.099] Browser LOG     Debug: isTamilBibleSelected false
+[28:29:01.099] Browser LOG     Debug: currentBookName ஆதி
+[28:29:01.099] Browser LOG     Debug: chapter GEN.intro
+[28:29:01.099] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"c89622d31b60c444-02"}
+[28:29:01.099] Browser LOG     Fetching from API: bible-c89622d31b60c444-02-GEN.intro
+[28:29:07.150] Browser LOG     Debug: selectedVersion?.name Indian Revised Version (IRV) Tamil - 2019
+[28:29:07.150] Browser LOG     Debug: isTamilBibleSelected false
+[28:29:07.150] Browser LOG     Debug: currentBookName bereshis
+[28:29:07.150] Browser LOG     Debug: chapter GEN.intro
+[28:29:07.150] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"03a021185023710b-01"}
+[28:29:07.150] Browser LOG     Loading from cache: bible-03a021185023710b-01-GEN.intro
+[28:29:41.929] Server  LOG      ✓ Compiled in 90ms
+[28:31:16.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[28:31:16.944] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[28:31:16.944] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[28:31:16.944] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764871304244}
+[28:31:27.347] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[28:31:27.347] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[28:31:30.263] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:31:32.284] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:31:34.681] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[28:31:34.681] Browser LOG     Debug: selectedVersion?.name Berean Standard Bible
+[28:31:34.681] Browser LOG     Debug: isTamilBibleSelected false
+[28:31:34.681] Browser LOG     Debug: currentBookName genesis
+[28:31:34.681] Browser LOG     Debug: chapter GEN.intro
+[28:31:34.681] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[28:31:34.681] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[28:31:51.368] Browser LOG     Debug: selectedVersion?.name Indian Revised Version (IRV) Tamil - 2019
+[28:31:51.368] Browser LOG     Debug: isTamilBibleSelected true
+[28:31:51.369] Browser LOG     Debug: currentBookName genesis
+[28:31:51.369] Browser LOG     Debug: chapter GEN.intro
+[28:31:51.369] Browser LOG     Debug: Tamil iframe URL set to https://tamilbible.org/tamil/genesis/intro
+[37:13:40.061] Browser LOG     Debug: selectedVersion?.name Indian Revised Version (IRV) Tamil - 2019
+[37:13:40.076] Browser LOG     Debug: isTamilBibleSelected true
+[37:13:40.078] Browser LOG     Debug: currentBookName ஆதி
+[37:13:40.078] Browser LOG     Debug: chapter GEN.intro
+[37:13:40.078] Browser LOG     Debug: Tamil iframe URL set to https://tamilbible.org/tamil/ஆதி/intro
+[37:13:41.701] Browser LOG     Debug: selectedVersion?.name Indian Revised Version (IRV) Tamil - 2019
+[37:13:41.701] Browser LOG     Debug: isTamilBibleSelected true
+[37:13:41.701] Browser LOG     Debug: currentBookName ஆதி
+[37:13:41.701] Browser LOG     Debug: chapter EXO.intro
+[37:13:41.702] Browser LOG     Debug: Tamil iframe URL set to https://tamilbible.org/tamil/ஆதி/intro
+[41:48:45.757] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[41:48:46.215] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[41:48:46.215] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[41:48:46.215] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764919154954}
+[43:32:54.202] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[43:32:54.211] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[43:32:57.368] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[43:32:58.812] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[43:33:00.117] Browser WARN    Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component.
+[43:33:00.117] Browser LOG     Debug: selectedVersion?.name Berean Standard Bible
+[43:33:00.117] Browser LOG     Debug: isTamilBibleSelected false
+[43:33:00.117] Browser LOG     Debug: currentBookName genesis
+[43:33:00.117] Browser LOG     Debug: chapter GEN.intro
+[43:33:00.117] Browser LOG     Debug: Fetching chapter content for: {"book":"GEN","chapter":"GEN.intro","translation":"bba9f40183526463-01"}
+[43:33:00.117] Browser LOG     Loading from cache: bible-bba9f40183526463-01-GEN.intro
+[43:33:00.117] Browser LOG     Debug: selectedVersion?.name Indian Revised Version (IRV) Tamil - 2019
+[43:33:00.117] Browser LOG     Debug: isTamilBibleSelected true
+[43:33:00.117] Browser LOG     Debug: currentBookName genesis
+[43:33:00.117] Browser LOG     Debug: chapter GEN.intro
+[43:33:00.117] Browser LOG     Debug: Tamil iframe URL set to https://tamilbible.org/tamil/genesis/intro
+[43:39:44.941] Server  LOG      ✓ Compiled in 1242ms
+[43:41:28.830] Server  LOG      ✓ Compiled in 218ms
